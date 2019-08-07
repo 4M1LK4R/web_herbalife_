@@ -3,4 +3,5 @@ $(document).ready(function () {
     $('.sidenav').sidenav();
     $('.tabs').tabs();
     $('#tabs-swipe-demo').tabs({ swipeable: true });
+    $('.fixed-action-btn').floatingActionButton();
 });
